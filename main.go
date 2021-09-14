@@ -22,7 +22,6 @@ func getClient(ctx context.Context, serviceAccountPath string) (*firestore.Clien
 	if err != nil {
 		return nil, err
 	}
-
 	client, err := app.Firestore(ctx)
 	if err != nil {
 		return nil, err

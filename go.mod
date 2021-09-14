@@ -1,4 +1,4 @@
-module backup_firestore_go
+module backup_firestore
 
 go 1.16
 
